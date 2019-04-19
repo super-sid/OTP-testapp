@@ -10,6 +10,7 @@ An app which saves data to Firebase Database using OTP authentication.
   - If you use different phone for authentication you'll have to enter the OTP. So now two more cases occur:
       - If the OTP is correct your photo and phone number gets uploaded to `visitors` child in Firebase API
       - If the OTP is incorrect your photo and phone number gets uploaded to `suspicious_users` in Firebase API
+
 The data in APIs is fetched then to respective activities.
 
 ## Tools and Resources 
@@ -23,4 +24,4 @@ The Camera used in this app is not the Native Camera App but an external library
 The whole app uses [Material Design Library](https://github.com/material-components/material-components-android) by Google for its User interface.
 
 ## Database Structure
-
+![alt text](https://raw.githubusercontent.com/super-sid/OTP-testapp/master/firebase.JPG)
